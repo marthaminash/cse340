@@ -1,6 +1,266 @@
-/******* Change Box Model ***************/
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
+@media (max-width: 991px) {
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 16px;
+  }
+
+  #top-header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .siteName,
+  #tools {
+    margin: 0 40px;
+  }
+
+  .siteName a {
+    font-size: 40px;
+    color: #242332;
+    text-decoration: none;
+  }
+
+  #tools a {
+    text-decoration: none;
+    color: #242332;
+    text-transform: uppercase;
+  }
+  .nav {
+    background-color: #242332;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0 20px;
+    list-style: none;
+    color: #ffffff;
+  }
+  .welcome-message {
+    color: #242332;
+    margin-left: 16px;
+  }
+
+  .section-one {
+    height: 320px;
+  }
+
+  .owntoday-img {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .owntoday-box ul {
+    list-style: none;
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .owntoday-box {
+    background-color: rgba(192, 175, 226, 0.3);
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 20px;
+    padding: 40px 20px;
+  }
+
+  #dmc-delorean-heading {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .own_today_btn {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .delorean {
+    width: 70%;
+  }
+  .section-two {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .delorean-updates ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+
+  .delorean-updates ul li {
+    text-align: center;
+  }
+
+  .delorean-updates ul li a {
+    color: #242332;
+  }
+  .img-wrapper {
+    background-color: #c0afe2;
+    width: 180px;
+    height: 80px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0 auto;
+    padding: 0;
+    background-image: url("../images/site/checkerboard.jpg");
+    font-size: 16px;
+    width: 80%;
+  }
+
+  #wrapper {
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 6px solid #c0afe2;
+  }
+
+  #top-header {
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .siteName,
+  #tools {
+    margin: 0 40px;
+  }
+
+  .siteName a {
+    font-size: 40px;
+    color: #242332;
+    text-decoration: none;
+  }
+
+  #tools a {
+    text-decoration: none;
+    color: #242332;
+    text-transform: uppercase;
+  }
+
+  .nav {
+    background-color: #242332;
+    width: 98%;
+    margin: 0 auto;
+  }
+
+  .nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    margin: 0 160px;
+    padding: 0;
+    list-style: none;
+    color: #ffffff;
+  }
+
+  .welcome-message {
+    color: #242332;
+    margin-left: 16px;
+  }
+
+  .section-one {
+    height: 400px;
+  }
+
+  .owntoday-img {
+    margin: 0 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .owntoday-box ul {
+    list-style: none;
+    font-size: 20px;
+  }
+
+  .owntoday-box {
+    background-color: rgba(192, 175, 226, 0.3);
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+  }
+
+  #dmc-delorean-heading {
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .own_today_btn {
+    margin: 0 40px;
+  }
+
+  .delorean {
+    width: 600px;
+  }
+
+  .section-two {
+    height: 320px;
+    display: flex;
+  }
+
+  .delorean-updates {
+    width: 50%;
+  }
+
+  .delorean-reviews h2,
+  .delorean-updates h2 {
+    margin-left: 40px;
+  }
+
+  .delorean-updates ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+
+  .delorean-updates ul li {
+    text-align: center;
+  }
+
+  .delorean-updates ul li a {
+    color: #242332;
+  }
+
+  .delorean-reviews {
+    width: 50%;
+  }
+
+  .delorean-reviews ul {
+    font-size: 20px;
+    line-height: 180%;
+  }
+
+  .img-wrapper {
+    background-color: #c0afe2;
+    width: 180px;
+    height: 80px;
+    margin: 0 auto;
+  }
 }
